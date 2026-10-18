@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "39e97d1750a5d837",
+    "type": "split",
+    "children": [
+      {
+        "id": "1abe1ed5f0fcd6c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a53e66e861acc448",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 demo/demo-runbook.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "demo-runbook"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fe8678dde7104527",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9258f9b8e12cc19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2afb867cade5de15",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7cb2b4105723f536",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "447e378cf370b5d7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a486f1d392942438",
+    "type": "split",
+    "children": [
+      {
+        "id": "29320912cae818ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e2942a98e725f2b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "05 demo/demo-runbook.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9aac67f978b9a6d0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "05 demo/demo-runbook.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "4b9e2ff692b1f528",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "932e199ebd0100ee",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e61ae6e541290150",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "05 demo/demo-runbook.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "a53e66e861acc448",
+  "lastOpenFiles": [
+    "05 demo/screens/z_act3_northwind_app_invoice-commit-and-support_before.jpg",
+    "05 demo/screens/act3_northwind_app_invoice-commit-and-support_before.jpg",
+    "05 demo/screens/act1/act3_northwind_app_invoice-commit-and-support_before.jpg",
+    "05 demo/demo-runbook.md",
+    "05 demo/screens/act1/act1_02_rate-card_replicate-list-prices_after-l40s.jpg",
+    "05 demo/screens/act1/act1_01_product_compute-hours.jpg",
+    "05 demo/screens/act0 [DONE]/act0_03_billable-metric_compute-seconds.jpg",
+    "05 demo/screens/act0 [DONE]/act0_02_usage-events_one-event-payload.jpg",
+    "05 demo/screens/act0 [DONE]/act0_01_usage-events_stream_after-l40s.jpg",
+    "05 demo/screens/act0 [DONE]",
+    "05 demo/screens/act0/act0_03_billable-metric_compute-seconds.jpg",
+    "05 demo/screens/act0/act0_02_usage-events_one-event-payload.jpg",
+    "05 demo/screens/act0/act0_01_usage-events_stream_after-l40s.jpg",
+    "05 demo/screens/act0",
+    "05 demo/screens/untitled folder",
+    "05 demo/screens/act1",
+    "screens/act0_billable-metric_compute-seconds.jpg.md",
+    "screens/act0_usage-events_one-event-payload.jpg.md",
+    "screens/act0_usage-events_stream_after-l40s.jpg.md",
+    "screens"
+  ]
+}
