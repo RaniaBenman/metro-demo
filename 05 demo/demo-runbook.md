@@ -7,7 +7,30 @@
 | Brightframe AI | Pay-as-you-go + Pro Support | https://app.metronome.com/customers/10a372d9-6bd7-4984-886d-a24ac14994ca |
 | Northwind Media | $100k prepaid commit, 3 years | https://app.metronome.com/customers/a162a702-1a41-43c1-92d9-f28d7f6615cf |
 | Kepler Games | $100k postpaid minimum, 3 years | https://app.metronome.com/customers/27da32a3-451b-48fb-ba14-84f252556716 |
- 
+https://docs.google.com/presentation/d/1HdrACtg-SPn5qvqFiTN043FZZF6ojzNDiABUA-67xo0/edit?slide=id.p6#slide=id.p6
+
+ Basics
+ - https://app.metronome.com/events?startingOn=2026-09-18T00%3A00%3A00.000Z&endingBefore=2026-10-18T00%3A00%3A00.000Z
+ - https://app.metronome.com/offering/billable-metrics/7390320d-c651-473d-b6b6-3817f804bec0
+ - https://app.metronome.com/offering/products?product_id=6c2ba938-efe8-4261-9dad-6d71dad49d6d
+ - https://app.metronome.com/offering/rate-cards/a9fd7428-fdaa-4b53-9770-1a76fdd04f0c
+
+Ada Alerts
+- https://app.metronome.com/customers/d44c4fc0-a5cf-4069-82d4-5a48daf4af7c/invoices/cec50b47-a4fa-5adb-914e-45b0799cb534
+- https://app.metronome.com/developer/notifications
+
+Customers
+- https://app.metronome.com/customers/10a372d9-6bd7-4984-886d-a24ac14994ca/invoices/a6327a8e-2267-5054-b617-6322b3515a5e
+- https://app.metronome.com/customers/a162a702-1a41-43c1-92d9-f28d7f6615cf/invoices/aff1e1e8-f635-5473-9ef0-5f418ef9352a
+
+Integration:
+- https://app.metronome.com/developer/integrations
+
+Misc:
+- https://app.metronome.com/offering/packages
+- https://app.metronome.com/customers/27da32a3-451b-48fb-ba14-84f252556716/invoices/e665caa2-bf33-59ce-a0dd-076b869e84d1
+
+
 ## Before the demo
 
 1. **Within the hour before the demo:** `./run_single.sh 06_dashboard_links.py`. The customer dashboard links expire 1 hour after they're generated.
