@@ -35,9 +35,9 @@ from replicate_common import client, load_state, require, save_state
 LINKS = [
     ("prepaid", "commits_and_credits"),
     ("prepaid", "usage"),
-    ("postpaid", "commits_and_credits"),
     ("self_serve", "commits_and_credits"),
     ("pro_support", "invoices"),
+    ("postpaid", "commits_and_credits"),
 ]
 
 

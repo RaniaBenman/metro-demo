@@ -19,6 +19,7 @@ import datetime as dt
 import json
 import os
 import sys
+import uuid # used by optional script 08
 
 from metronome import Metronome
 
@@ -135,6 +136,31 @@ def cents(dollars):
 # (prediction | deployment | training) and `model` are only used for breakdowns
 # (usage API, dashboards).
 EVENT_TYPE = "compute_usage"
+WORKLOADS = ("prediction", "deployment", "training") # used by optional script 08
+
+#used by optional script 08 :
+def compute_usage_event(transaction_seed, customer_ref, timestamp, seconds, hardware, workload, model, event_ref):
+    """One `compute_usage` event, in the shape the billable metric counts: it only
+    matches events carrying all four properties (seconds, hardware, workload, model).
+
+    transaction_seed: text that identifies the event; hashed into transaction_id,
+                      Metronome's idempotency key (duplicates are ignored for 34 days).
+    customer_ref:     Replicate's own account id, registered as the customer's ingest alias.
+    timestamp:        timezone-aware datetime of the usage.
+    """
+    return {
+        "transaction_id": str(uuid.uuid5(uuid.NAMESPACE_URL, transaction_seed)),
+        "customer_id": customer_ref,
+        "event_type": EVENT_TYPE,
+        "timestamp": iso(timestamp),
+        "properties": {
+            "seconds": str(seconds),  # strings: Metronome uses exact decimals
+            "hardware": hardware,
+            "workload": workload,
+            "model": model,
+            "id": event_ref,
+        },
+    }
 
 # Today's price list, as given in the brief: sku -> (display name, $/second, $/hour).
 # $/hour is exactly $/second x 3600, so pricing per hour is pricing per second.
